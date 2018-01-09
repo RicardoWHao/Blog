@@ -18,7 +18,7 @@ public class BlogApplication {
 	@RequestMapping("/hello")
 	public String Hello() {
 		User user = new User();
-		user.setId(123);
+		user.setId(234);
 		user.setName("wanghao");
 		userDao.insertUser(user);
 		return "insert success!";
